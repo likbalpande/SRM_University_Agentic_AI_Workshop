@@ -19,7 +19,7 @@ tools = tools_module.tools
 messages = [
     {
         "role": "system",
-        "content": "You are a helpful assistant. Always use the available tools.",
+        "content": "You are a helpful assistant. Always use the available tools. Don't add any text formatting.",
     }
 ]
 
