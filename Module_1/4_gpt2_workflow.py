@@ -26,7 +26,7 @@ wte = model.transformer.wte.weight               # [vocab_size, hidden_dim], unc
 
 # Dump first 100 tokens and their embeddings to TSV file
 print("Dumping first 100 tokens and embeddings to 'token_embeddings.tsv'...")
-with open('token_embeddings.tsv', 'w') as f:
+with open('token_embeddings.tsv', 'w', encoding='utf-8') as f:
     # Write header
     f.write("Token_ID\tToken_Text\tEmbedding_Vector\n")
     
